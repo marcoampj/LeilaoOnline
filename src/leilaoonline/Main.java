@@ -1,21 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package leilaoonline;
 
-/**
- *
- * @author jnhog
- */
 public class Main {
+    double Valor;
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+     produto p1 = new produto();
+     p1.nome = "Notebook Dell I5";
+     p1.valor = 800;
+     p1.codigo = 1313;
+     p1.cor = "Preto";
+     p1.status();     
     }
-    
-}
+  }
