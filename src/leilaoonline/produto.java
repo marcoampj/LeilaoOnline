@@ -5,8 +5,7 @@ String nome;
 String cor;
  double valor;
  int codigo;
- 
- 
+  
  public String getNome(){
      return this.nome;
  }
