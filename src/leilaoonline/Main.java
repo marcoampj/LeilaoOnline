@@ -9,5 +9,6 @@ public class Main {
      p1.codigo = 1313;
      p1.valor = 800;
      p1.status();
+     
     }
   }
