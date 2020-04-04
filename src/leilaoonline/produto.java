@@ -13,8 +13,7 @@ void status(){
     System.out.println("Código: " + this.codigo);
 }
     public produto() {
-        
-        
+                
     }
     
 }
