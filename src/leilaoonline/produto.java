@@ -21,6 +21,7 @@ String cor;
         this.cor = cor;
     }
 
+    
     @Override
     public String toString() {
         return "produto{" + "nome=" + nome + ", cor=" + cor + ", valor=" + valor + '}';
