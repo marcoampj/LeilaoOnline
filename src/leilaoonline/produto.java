@@ -3,32 +3,40 @@ package leilaoonline;
 public class produto {
 String nome;
 String cor;
- double valor;
- int codigo;
-  
- public String getNome(){
-     return this.nome;
- }
- public void setNome(){
-    String n = null;
-     this.nome = n;
- }
+ private double valor;
 
-  public String getCor(){
-     return this.cor;
- }
- public void setCor(){
-    String c = null;
-     this.cor = c;
- }
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getCor() {
+        return cor;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+
+    @Override
+    public String toString() {
+        return "produto{" + "nome=" + nome + ", cor=" + cor + ", valor=" + valor + '}';
+    }
 void status(){
     System.out.println("Sobre o Produto:");
     System.out.println("Nome: " + this.nome);
     System.out.println("Cor: " + this.cor);
-    System.out.println("Valor: " + this.valor);
-    System.out.println("Código: " + this.codigo);
+    System.out.println("Valor: " + this.getValor());
     }
     public produto() {
         
                        }
+
+    
+    public double getValor() {
+        return valor;
+    }
 }

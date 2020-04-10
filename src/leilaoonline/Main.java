@@ -6,9 +6,8 @@ public class Main {
      produto p1 = new produto();
      p1.nome = "Dell I5, 1TB";
      p1.cor = "Preto";
-     p1.codigo = 1313;
-     p1.valor = 800;
      p1.status();
      
+        System.out.println("Leilão de um notebook? " + p1.getNome() + "de valor: " + p1.getValor());
     }
   }
